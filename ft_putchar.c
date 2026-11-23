@@ -6,13 +6,13 @@
 /*   By: aakhiyat <aakhiyat@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 21:55:44 by aakhiyat          #+#    #+#             */
-/*   Updated: 2026/11/23 17:49:28 by aakhiyat         ###   ########.fr       */
+/*   Updated: 2026/11/23 20:50:14 by aakhiyat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int    ft_putchar(char c)
+int	ft_putchar(char c)
 {
-    return(write(1, &c, 1));
+	return (write(1, &c, 1));
 }
